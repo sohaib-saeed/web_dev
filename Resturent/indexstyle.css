@@ -1,0 +1,64 @@
+body{
+    color:white;
+    background: url(food.jpg)no-repeat;
+    background-size: cover;
+  
+}
+  .box{
+   width:450px;
+   float:left;
+   margin-top: -130px;
+  margin-left: 34%;
+  }
+  .box ul li{
+     width: 120px;
+     float: left;
+margin-bottom: 20px;
+    text-align: center;
+  }
+  .box ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+  }
+  .box ul li:hover{
+    background-color: green;
+  }
+  .box ul li a:hover{
+    color:white;
+  }
+  .wd{
+    width:250px;
+    height:300px;
+    background-color:black ;
+    opacity: 0.9;
+    padding: 55px;
+    margin-top:150px;
+    margin-left: 37%;
+
+  }
+  .wd h1{
+    text-align:center;
+    text-transform: uppercase;
+  }
+  .wd h4{
+    text-align: justify;
+    color: darkgrey;
+    text-align: center;
+  }
+  .wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px auto;
+    }
+  .opt form,input[type="button"]{
+    background-color: black;
+    color: white;
+    text-align:center;
+    font-size: 25px;
+    padding: 15px;
+
+  }
+   form,input[type="button"]:hover{
+     background-color: green;
+   }
